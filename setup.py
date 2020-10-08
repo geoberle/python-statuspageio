@@ -9,11 +9,11 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='statuspageio',
-    version='0.0.1',
+    version='0.0.2',
     description='StatusPage.io API V1 library client for Python',
     long_description=README,
-    author='GameSparks developers',
-    url='https://github.com/gamesparks/python-statuspageio',
+    author='Transity Consulting Group',
+    url='https://github.com/ryanwilliamson01/python-statuspageio',
     license='MIT',
     packages=['statuspageio'],
     install_requires=['requests', 'munch'],
@@ -31,5 +31,9 @@ setup(
         "Programming Language :: Python :: 3.2",
         "Programming Language :: Python :: 3.3",
         "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ])
